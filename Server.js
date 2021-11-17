@@ -8,8 +8,6 @@ const routes =  require('./routes');
 const app = express();
 const port = process.env.PORT || 5000;
 
-
-
 //CONEXAO COM BANCO DE DADOS MONGO DB
 mongoose.connect('mongodb://localhost:27017/Teste',{
     useUnifiedTopology:true,
