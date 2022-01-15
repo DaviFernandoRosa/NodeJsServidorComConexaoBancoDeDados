@@ -25,6 +25,7 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(routes);
 
+
 app.listen(port,function(){
     console.log(`Servidor rodando na porta: ${port}`)
 });
